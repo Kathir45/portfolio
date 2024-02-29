@@ -1,0 +1,139 @@
+*{
+    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  border: none;
+
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background: whitesmoke;
+    
+}
+.navbar small{
+    font-size: 5px;
+    font-weight: bolder;
+}
+
+.banner{
+    background: url('banner.jpeg');
+    color: white;
+    font-weight: bolder;
+}
+.banner h1{
+    color: red;
+}
+.about{
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.about h2{
+    color: teal;
+    padding: 10px;
+    width: 100%;
+}
+.card{
+    text-align: center;
+    margin: 15px;
+    cursor: pointer;
+}
+.skills{
+    background: whitesmoke;
+    text-align: center;
+    
+}
+.skills h2{
+    color: red;
+    font-weight: bolder;
+}
+.card:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    transition: 1s ease;
+}
+
+.project details a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+}
+.project details img{
+    margin: auto;
+    overflow: auto;
+    border-image-width: 100px;
+}
+details{
+    padding: 15px;
+}
+.project{
+    background-color: gainsboro;
+    overflow-x: scroll;
+}
+.project h2{
+    color: blue;
+}
+
+
+.input {
+  max-width: 190px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 15px 5px 10px 20px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background-position: bottom right, bottom right;
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  box-shadow: inset -4px -10px 0px rgba(255, 255, 255, 0.4),
+    inset -4px -8px 0px rgba(0, 0, 0, 0.3),
+    0px 2px 1px rgba(0, 0, 0, 0.3),
+    0px 2px 1px rgba(255, 255, 255, 0.1);
+  transform: perspective(70px) rotateX(5deg) rotateY(0deg);
+  border-radius: 10px;
+}
+
+.input::before {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  background-position: bottom right, bottom right;
+  background-size: 100% 100%, 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 15px;
+  transition: all .1s ease-in-out 0s;
+}
+
+.input:focus {
+  border: 2px solid #c3c6ce;
+}
+
+.input::placeholder {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.input:focus::placeholder {
+  color: #999;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    background: aqua;
+}
+.lbtn{
+    width: 100px;
+    margin: 20px;
+}
+.contact h2{
+    color: violet;
+    
+}
